@@ -6,11 +6,11 @@ import {
 function Navbar() {
   return (
     <nav>
-      <div>
+      <div id="navbar">
         <header>
-          <h1><Link to="/">Foodieland</Link></h1>
+          <h1 id="header"><Link to="/">Foodieland</Link></h1>
         </header>
-        <ul className="navbar">
+        <ul className="nav-links">
           <li>
             <Link to="/">Home</Link>
           </li>
@@ -27,19 +27,19 @@ function Navbar() {
             <Link to="/about">About us</Link>
           </li>
         </ul>
-        <ul>
+        <ul className='nav-links'>
             <li>
-                <a>
+                <a href=''>
                     <img src="001-facebook.svg" />
                 </a>
             </li>
             <li>
-                <a>
+                <a href=''>
                     <img src="003-twitter.svg" />
                 </a>
             </li>
             <li>
-                <a>
+                <a href=''>
                     <img src="004-instagram.svg" />
                 </a>
             </li>
