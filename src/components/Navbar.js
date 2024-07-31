@@ -40,7 +40,7 @@ function Navbar() {
             </li>
             <li>
                 <a href=''>
-                    <img src="004-instagram.svg" />
+                    <img src="instagram.svg" />
                 </a>
             </li>
         </ul>
