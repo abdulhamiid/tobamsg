@@ -1,10 +1,14 @@
-import React from "react";
-import Navbar from './Navbar'
+import React from 'react'
+import Showcase from './Showcase'
 
-const Home = () => {
-    return (
-        <h1>Hi</h1>
-    )
+function Home() {
+  return (
+    <>
+      <Showcase />
+
+    </>
+
+  )
 }
 
-export default Home;
+export default Home
