@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 const formatDate = (date) => {
   const options = { month: 'long', day: 'numeric' };
@@ -68,5 +69,15 @@ function Icard({ src, description }) {
     </div>
   );
 }
+
+Icard.defaultProps = {
+  src: '',
+  description: '',
+};
+
+Icard.propTypes = {
+  src: string,
+  description: PropTypes.string,
+};
 
 export default Icard;

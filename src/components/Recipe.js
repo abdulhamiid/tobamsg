@@ -17,7 +17,7 @@ function Recipe() {
         <RecipeCard src="image3.svg" description="Spicy delicious chicken wings" cookingTime="30 minutes" category="Snack" />
         <RecipeCard src="image5.svg" description="Spicy delicious chicken wings" cookingTime="30 minutes" category="Snack" />
         <RecipeCard src="image7.svg" description="Spicy delicious chicken wings" cookingTime="30 minutes" category="Snack" />
-        <img src="Ads2.svg" />
+        <img src="Ads2.svg" alt="ads" />
         <RecipeCard src="image6.svg" description="Spicy delicious chicken wings" cookingTime="30 minutes" category="Snack" />
         <RecipeCard src="image8t.svg" description="Spicy delicious chicken wings" cookingTime="30 minutes" category="Snack" />
         <RecipeCard src="image8.svg" description="Spicy delicious chicken wings" cookingTime="30 minutes" category="Snack" />

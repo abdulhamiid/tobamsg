@@ -37,7 +37,7 @@ function Showcase() {
             <div id="rcp_button">
               <button type="button">
                 <span>View Recipes</span>
-                <img src="PlayCircle.svg" />
+                <img src="PlayCircle.svg" alt="play-circle" />
               </button>
             </div>
           </div>

@@ -13,7 +13,7 @@ function Drc() {
           adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et
           dolore magnam aliquam quaerat voluptatem.
         </p>
-        <img className="py-4 w-[100%]" src="Rectangle23.svg" />
+        <img className="py-4 w-[100%]" src="Rectangle23.svg" alt="cook-img" />
         <p className="px-7 py-3">
           Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit,
           sed quia consequuntur magni dolores eos quiratione voluptatem sequi nesciunt.

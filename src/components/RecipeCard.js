@@ -1,5 +1,6 @@
 import React from 'react';
 import { IoIosHeart } from 'react-icons/io';
+import PropTypes from 'prop-types';
 
 function RecipeCard({
   src, description, cookingTime, category,
@@ -24,5 +25,19 @@ function RecipeCard({
     </div>
   );
 }
+
+RecipeCard.defaultProps = {
+  src: '',
+  description: '',
+  cookingTime: '',
+  category: '',
+};
+
+RecipeCard.propTypes = {
+  src: PropTypes.string,
+  description: PropTypes.string,
+  category: PropTypes.string,
+  cookingTime: PropTypes.string,
+};
 
 export default RecipeCard;

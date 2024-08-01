@@ -44,8 +44,8 @@ function Main() {
           </div>
           <div id="showcase-col">
             <div>
-              <img className="w-[100%]" src="MaskGroup.svg" />
-              <img src="Group884.svg" alt="image" />
+              <img className="w-[100%]" src="MaskGroup.svg" alt="svgImg" />
+              <img src="Group884.svg" alt="svgImg" />
             </div>
           </div>
         </div>
