@@ -51,11 +51,17 @@ function Main() {
             </div>
             <div className='col-span flex flex-col gap-6'>
                 <div className='flex gap-[30px] items-end'>
-                    <div className='flex justify-items-center p-4 w-[60px] h-[60px] rounded-full bg-[#E7FAFE]'>
-                        <img src='printer.svg' alt="print" />
+                    <div className='flex flex-col justify-items-center items-center'>
+                        <div className='flex justify-items-center p-4 w-[60px] h-[60px] rounded-full bg-[#E7FAFE]'>
+                            <img src='printer.svg' alt="print" />
+                        </div>
+                        <p className='text-sm my-3'>PRINT</p>
                     </div>
-                    <div className='flex justify-items-center p-4 items-center w-[60px] h-[60px] rounded-full bg-[#E7FAFE]'>
-                        <img src='share.svg' alt='shareIcon' />
+                    <div className='flex flex-col justify-items-center items-center'>
+                        <div className='flex justify-items-center p-4 w-[60px] h-[60px] rounded-full bg-[#E7FAFE]'>
+                            <img src='share.svg' alt="print" />
+                        </div>
+                        <p className='text-sm my-3'>SHARE</p>
                     </div>
                 </div>
                 <div className='bg-[#E7FAFE] p-8 rounded-[25px]'>
