@@ -71,27 +71,30 @@ exports[`Test Navigation renders correctly 1`] = `
     >
       <li>
         <a
-          href=""
+          href="#"
         >
           <img
+            alt="Facebook"
             src="001-facebook.svg"
           />
         </a>
       </li>
       <li>
         <a
-          href=""
+          href="#"
         >
           <img
+            alt="Twitter"
             src="003-twitter.svg"
           />
         </a>
       </li>
       <li>
         <a
-          href=""
+          href="#"
         >
           <img
+            alt="Instagram"
             src="instagram.svg"
           />
         </a>

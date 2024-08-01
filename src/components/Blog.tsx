@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Blog() {
+const Blog: React.FC = () => {
   return (
     <section>
       <div>
@@ -19,7 +19,6 @@ function Blog() {
       <div>
         <img src="foodieland.jpg" alt="Foodieland" />
       </div>
-
     </section>
   );
 }

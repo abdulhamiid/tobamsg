@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Drc() {
+const Drc: React.FC = () => {
   return (
     <section className="w-[65%] ml-[6%] my-[60px]">
       <h3 className="text-3xl font-bold my-6">Directions</h3>

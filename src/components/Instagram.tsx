@@ -1,15 +1,14 @@
 import React from 'react';
 import Icard from './Icard';
 
-function Instagram() {
+const Instagram: React.FC = () => {
   return (
     <section id="sec-exl">
       <div>
         <h2>Check out @foodieland on Instagram</h2>
         <p>
           Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod
-          tempor incididunt ut labore et dolore magna aliqut enim ad minim
-          {' '}
+          tempor incididunt ut labore et dolore magna aliqua ut enim ad minim
         </p>
       </div>
       <div>
@@ -20,11 +19,10 @@ function Instagram() {
       </div>
       <button type="button" className="flex justify-around items-center gap-2.5">
         <span>Visit Our Instagram</span>
-        <img src="004-instagram.svg" alt="intagram" />
+        <img src="004-instagram.svg" alt="instagram" />
       </button>
     </section>
-
   );
-}
+};
 
 export default Instagram;

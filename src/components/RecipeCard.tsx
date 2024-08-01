@@ -1,10 +1,16 @@
 import React from 'react';
 import { IoIosHeart } from 'react-icons/io';
-import PropTypes from 'prop-types';
 
-function RecipeCard({
+interface RecipeCardProps {
+  src: string;
+  description: string;
+  cookingTime: string;
+  category: string;
+}
+
+const RecipeCard: React.FC<RecipeCardProps> = ({
   src, description, cookingTime, category,
-}) {
+}) => {
   return (
     <div className="rcpcard">
       <img src={src} alt={description} />
@@ -24,20 +30,6 @@ function RecipeCard({
       </div>
     </div>
   );
-}
-
-RecipeCard.defaultProps = {
-  src: '',
-  description: '',
-  cookingTime: '',
-  category: '',
-};
-
-RecipeCard.propTypes = {
-  src: PropTypes.string,
-  description: PropTypes.string,
-  category: PropTypes.string,
-  cookingTime: PropTypes.string,
 };
 
 export default RecipeCard;

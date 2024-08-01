@@ -1,7 +1,7 @@
 import React from 'react';
 import CurrentDate from './CurrentDate';
 
-function Showcase() {
+const Showcase: React.FC = () => {
   return (
     <main>
       <div />
@@ -11,7 +11,7 @@ function Showcase() {
             <img src="image4.svg" alt="Foodieland" />
             <p>Hot Recipes</p>
           </div>
-          <h1>Spicy delicious chicken wings </h1>
+          <h1>Spicy delicious chicken wings</h1>
           <p>
             Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt
             ut labore et dolore magna aliqut enim ad minim
@@ -49,6 +49,6 @@ function Showcase() {
       <div />
     </main>
   );
-}
+};
 
 export default Showcase;

@@ -1,14 +1,19 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 
-const formatDate = (date) => {
-  const options = { month: 'long', day: 'numeric' };
+interface IcardProps {
+  src: string;
+  description: string;
+}
+
+const formatDate = (date: Date): string => {
+  const options: Intl.DateTimeFormatOptions = { month: 'long', day: 'numeric' };
   return new Intl.DateTimeFormat('en-US', options).format(date);
 };
 
-function Icard({ src, description }) {
+const Icard: React.FC<IcardProps> = ({ src, description }) => {
   const today = new Date();
   const formattedDate = formatDate(today);
+  
   return (
     <div className="bg-white py-4" id="exl">
       <div className="justify-items-center items-center">
@@ -68,16 +73,11 @@ function Icard({ src, description }) {
       <p className="px-3 text-xs text-gray-500">{formattedDate}</p>
     </div>
   );
-}
+};
 
 Icard.defaultProps = {
   src: '',
   description: '',
-};
-
-Icard.propTypes = {
-  src: string,
-  description: PropTypes.string,
 };
 
 export default Icard;

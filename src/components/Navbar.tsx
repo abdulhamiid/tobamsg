@@ -1,9 +1,7 @@
 import React from 'react';
-import {
-  Link,
-} from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
-function Navbar() {
+const Navbar: React.FC = () => {
   return (
     <nav>
       <div id="navbar">
@@ -35,17 +33,17 @@ function Navbar() {
         <ul className="nav-links">
           <li>
             <a href="#">
-              <img src="001-facebook.svg" />
+              <img src="001-facebook.svg" alt="Facebook" />
             </a>
           </li>
           <li>
             <a href="#">
-              <img src="003-twitter.svg" />
+              <img src="003-twitter.svg" alt="Twitter" />
             </a>
           </li>
           <li>
             <a href="#">
-              <img src="instagram.svg" />
+              <img src="instagram.svg" alt="Instagram" />
             </a>
           </li>
         </ul>

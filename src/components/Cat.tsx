@@ -1,7 +1,7 @@
 import React from 'react';
 import Card from './Card';
 
-function Cat() {
+const Cat: React.FC = () => {
   return (
     <section id="categories">
       <div>
@@ -19,7 +19,6 @@ function Cat() {
         <Card img="Chocolate.svg" description="Chocolate" />
       </div>
     </section>
-
   );
 }
 

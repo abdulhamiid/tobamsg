@@ -3,7 +3,7 @@ import Main from '../components/Main';
 import IngredentCard from '../components/IngredentCard';
 import Drc from '../components/Drc';
 
-function Recipe() {
+const Recipe: React.FC = () => {
   return (
     <div>
       <Main />
@@ -11,6 +11,6 @@ function Recipe() {
       <Drc />
     </div>
   );
-}
+};
 
 export default Recipe;

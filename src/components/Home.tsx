@@ -7,7 +7,7 @@ import Footer from './Footer';
 import DelRecipe from './DelRecipe';
 import MoreRecipe from './MoreRecipe';
 
-function Home() {
+const Home: React.FC = () => {
   return (
     <>
       <Showcase />
@@ -18,7 +18,6 @@ function Home() {
       <DelRecipe />
       <Footer />
     </>
-
   );
 }
 

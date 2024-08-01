@@ -1,7 +1,7 @@
 import React from 'react';
 import RecipeCard from './RecipeCard';
 
-function Recipe() {
+const Recipe: React.FC = () => {
   return (
     <section id="rcp">
       <div>

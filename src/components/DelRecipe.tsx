@@ -1,7 +1,7 @@
 import React from 'react';
 import RecipeCard from './RecipeCard';
 
-function DelRecipe() {
+const DelRecipe: React.FC = () => {
   return (
     <section className="mx-[6%] my-[100px]">
       <div className="grid grid-cols-2 gap-4 justify-between items-center my-[50px]">

@@ -1,6 +1,6 @@
 import React from 'react';
 
-function IngredentCard() {
+const IngredentCard: React.FC = () => {
   return (
     <section className="grid grid-cols-3 gap-[40px] justify-between items-start w-[88%] mx-auto my-[60px]">
       <div className="col-span-2 flex flex-col">
@@ -73,6 +73,6 @@ function IngredentCard() {
       </div>
     </section>
   );
-}
+};
 
 export default IngredentCard;

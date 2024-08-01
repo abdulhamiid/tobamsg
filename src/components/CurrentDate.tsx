@@ -1,11 +1,11 @@
 import React from 'react';
 
-const formatDate = (date) => {
-  const options = { day: 'numeric', month: 'long', year: 'numeric' };
+const formatDate = (date: Date): string => {
+  const options: Intl.DateTimeFormatOptions = { day: 'numeric', month: 'long', year: 'numeric' };
   return date.toLocaleDateString('en-GB', options);
 };
 
-const CurrentDate = () => {
+const CurrentDate: React.FC = () => {
   const today = new Date();
   return (
     <div>

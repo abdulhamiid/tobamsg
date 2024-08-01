@@ -1,11 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-function Footer() {
+const Footer: React.FC = () => {
   return (
     <footer className="flex flex-col justify-items-center items-center mx-[6%]">
       <div className="bg w-[100%] bg-[#e7f9fd] rounded-[50px]">
-        <div className="flex flex-col gap-4 text-center  w-[100%] p-[70px]">
+        <div className="flex flex-col gap-4 text-center w-[100%] p-[70px]">
           <h2>Deliciousness to your inbox</h2>
           <p className="w-[49%] mx-auto">
             Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt
@@ -13,7 +13,11 @@ function Footer() {
             {' '}
           </p>
           <form>
-            <input type="email" placeholder="Your email address..." className="bg-white px-5 py-8 m-7 rounded-[25px]" />
+            <input
+              type="email"
+              placeholder="Your email address..."
+              className="bg-white px-5 py-8 m-7 rounded-[25px]"
+            />
             <button type="submit">Subscribe</button>
           </form>
         </div>
@@ -22,7 +26,9 @@ function Footer() {
         <div className="flex w-[100%] justify-between items-center">
           <header className="flex flex-col gap-4 my-8">
             <h1 id="header"><Link to="/">Foodieland</Link></h1>
-            <small className="text-gray-500">Lorem ipsum dolor sit amet, consectetuipisicing elit, </small>
+            <small className="text-gray-500">
+              Lorem ipsum dolor sit amet, consectetuipisicing elit,
+            </small>
           </header>
           <ul className="nav-links">
             <li>
@@ -59,7 +65,7 @@ function Footer() {
           </li>
           <li>
             <a href="#">
-              <img src="instagram.svg" alt="intagram" />
+              <img src="instagram.svg" alt="instagram" />
             </a>
           </li>
         </ul>

@@ -6,7 +6,7 @@ import Instagram from '../components/Instagram';
 import DelRecipe from '../components/DelRecipe';
 import MoreRecipe from '../components/MoreRecipe';
 
-function Home() {
+const Home: React.FC = () => {
   return (
     <>
       <Showcase />
@@ -16,8 +16,7 @@ function Home() {
       <Instagram />
       <DelRecipe />
     </>
-
   );
-}
+};
 
 export default Home;
