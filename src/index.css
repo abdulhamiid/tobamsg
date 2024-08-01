@@ -17,7 +17,12 @@ body {
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family:
+    source-code-pro,
+    Menlo,
+    Monaco,
+    Consolas,
+    'Courier New',
     monospace;
 }
 
@@ -45,7 +50,6 @@ li {
 
 p {
   line-height: 2;
-
 }
 
 #kit button {
@@ -122,7 +126,7 @@ main > div:nth-child(3) {
   grid-template-columns: 1fr 1fr;
 }
 
-#mask  {
+#mask {
   background-image: url(/public/mask_group.svg);
   background-position: center center;
   background-repeat: no-repeat;
@@ -138,7 +142,6 @@ main > div:nth-child(3) {
   justify-content: center;
 }
 
-
 #showcase > div:first-child {
   padding: 0 70px;
 }
@@ -148,7 +151,7 @@ main > div:nth-child(3) {
   font-optical-sizing: auto;
   font-weight: 600;
   font-style: normal;
-  font-Size: 64px;
+  font-size: 64px;
   line-height: 77.45px;
 }
 
@@ -412,7 +415,7 @@ span {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 40px; 
+  gap: 40px;
   padding-bottom: 70px;
   background-image: url(/public/ibg.png);
   background-size: 100%;
@@ -509,7 +512,6 @@ footer form button {
   top: 50%;
   right: 50%;
   transform: translateY(-50%);
+
   /* transform: translateX(-50%); */
-
 }
-
