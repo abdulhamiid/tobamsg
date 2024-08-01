@@ -10,7 +10,7 @@ function Main() {
 
   return (
     <section className='w-[88%] mx-auto'>
-        <div className='grid grid-cols-3 gap-[60px] justify-between items-start'>
+        <div className='grid grid-cols-3 gap-[60px] justify-between items-center my-[50px]'>
             <div className='col-span-2 flex flex-col gap-4'>
                 <div className='flex flex-col gap-8 my-[40px]'>
                     <h2>Health Japanese Fried Rice</h2>
@@ -58,37 +58,37 @@ function Main() {
                         <img src='share.svg' alt='shareIcon' />
                     </div>
                 </div>
-                <div>
+                <div className='bg-[#E7FAFE] p-8 rounded-[25px]'>
                     <div>
-                            <h4>Nutrition Information</h4>
-                            <ul>
-                                <li>
-                                    <p>Calories</p>
-                                    <p>219.9 kcal</p>
-                                </li>
-                                <li>
-                                    <p>Total Fat</p>
-                                    <p>10.7 g</p>
-                                </li>
-                                <li>
-                                    <p>Protein</p>
-                                    <p>7.9 g</p>
-                                </li>
-                                <li>
-                                    <p>Carbohydrate</p>
-                                    <p>22.3 g</p>
-                                </li>
-                                <li>
-                                    <p>Cholesterol</p>
-                                    <p>37.4 mg</p>
-                                </li>
-                                <li>
-                                    <p>Total Fat</p>
-                                    <p>219.9 kcal</p>
-                                </li>
-                            </ul>
+                        <h4>Nutrition Information</h4>
+                        <ul className='divide-y divide-gray-300 mb-[100px]'>
+                            <li className='flex justify-between items-center py-5'>
+                                <p>Calories</p>
+                                <p>219.9 kcal</p>
+                            </li>
+                            <li className='flex justify-between items-center py-5'>
+                                <p>Total Fat</p>
+                                <p>10.7 g</p>
+                            </li>
+                            <li className='flex justify-between items-center py-5'>
+                                <p>Protein</p>
+                                <p>7.9 g</p>
+                            </li>
+                            <li className='flex justify-between items-center py-5'>
+                                <p>Carbohydrate</p>
+                                <p>22.3 g</p>
+                            </li>
+                            <li className='flex justify-between items-center py-5'>
+                                <p>Cholesterol</p>
+                                <p>37.4 mg</p>
+                            </li>
+                            <li className='flex justify-between items-center py-5'>
+                                <p>Total Fat</p>
+                                <p>219.9 kcal</p>
+                            </li>
+                        </ul>
                     </div>
-                    <p>adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <p className='text-center'>adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                 </div>
             </div>
         </div>
