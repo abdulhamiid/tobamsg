@@ -470,3 +470,17 @@ footer form button {
   right: 31%;
   top: 38px;
 }
+
+#showcase-col {
+  position: relative;
+}
+
+#showcase-col > div img:last-child {
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  transform: translateY(-50%);
+  /* transform: translateX(-50%); */
+
+}
+
