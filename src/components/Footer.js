@@ -43,7 +43,8 @@ function Footer() {
       <div className="flex justify-between items-center w-[50%] mx-auto my-12">
         <p>
           © 2020 Flowbase. Powered by
-          <span className="text-[#ff6363]">Webflow</span>
+          {' '}
+          <span className="text-[#ff6363]"> Webflow</span>
         </p>
         <ul className="flex justify-items-center items-center gap-8">
           <li>

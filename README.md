@@ -71,7 +71,7 @@ Clone this repository to your desired folder:
 
 ```sh
   git clone https://github.com/abdulhamiid/tobamsg.git
-  cd personal-website
+  cd tobamsg
 ```
 
 ### Install
@@ -86,7 +86,7 @@ npm install
 Run all test with
 
 ```
-npm t
+npm test
 ```
 
 <!-- AUTHORS -->
