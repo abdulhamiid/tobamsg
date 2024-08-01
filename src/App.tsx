@@ -3,10 +3,10 @@ import {
   Routes,
   Route,
 } from 'react-router-dom';
-import Navbar from './components/Navbar.js';
-import Home from './pages/Home.js';
-import Footer from './components/Footer.js';
-import Recipe from './pages/Recipe.js';
+import Navbar from './components/Navbar';
+import Home from './pages/Home';
+import Footer from './components/Footer';
+import Recipe from './pages/Recipe';
 
 function App() {
   return (
