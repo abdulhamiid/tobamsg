@@ -8,7 +8,7 @@ function Navbar() {
     <nav>
       <div id="navbar">
         <header>
-          <h1 id="header"><Link to="/">Foodieland</Link></h1>
+          <h1 id="header"><Link to="/">Foodieland<span className='text-[#ff6363]'>.</span></Link></h1>
         </header>
         <ul className="nav-links">
           <li>

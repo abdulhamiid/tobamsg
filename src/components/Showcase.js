@@ -28,13 +28,13 @@ function Showcase() {
                     <div id='smth'>
                         <img src="ellipse.svg" alt="Foodieland" />
                         <div>
-                            <h5>John Smith</h5>
+                            <h5 className='font-bold'>John Smith</h5>
                             <CurrentDate />
                         </div>   
                     </div>
                     <div id="rcp_button">
                         <button type="button">
-                            <span>View Recipe</span>
+                            <span>View Recipes</span>
                             <img src="PlayCircle.svg" />
                         </button>
                     </div>

@@ -75,7 +75,7 @@ nav {
 
 #navbar {
   display: flex;
-  width: 80%;
+  width: 88%;
   margin: 30px auto;
   justify-content: space-between;
   align-items: center;
@@ -264,7 +264,9 @@ span {
   gap: 10px;
   border-radius: 30px;
   padding: 0 15px 50px 15px;
-  background-color: #E7F9FD;
+  background-image: url(/public/Rectangle8bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
   position: relative;
 }
 
@@ -280,13 +282,13 @@ span {
 
 .icon {
   display: flex;
+  gap: 20px;
 }
 
 .icon > div {
   display: flex;
-  width: 100%;
   align-items: center;
-  gap: 10px;
+  gap: 20px;
 }
 
 #heart-i {
@@ -348,9 +350,38 @@ span {
 .bg-gradient {
   display: flex;
   flex-direction: column;
-  gap: 40px;
-  justify-content: center;
+  height: 200px;
+  justify-content: space-around;
   align-items: center;
+}
+
+#categories > div:nth-child(2) div {
+  background-repeat: no-repeat;
+  background-position: center bottom;
+}
+
+#categories > div:nth-child(2) div:first-child {
+  background-image: url(/public/Rectangle1.png);
+}
+
+#categories > div:nth-child(2) div:nth-of-type(2) {
+  background-image: url(/public/Rectangle2.png);
+}
+
+#categories > div:nth-child(2) div:nth-of-type(3) {
+  background-image: url(/public/Rectangle3.png);
+}
+
+#categories > div:nth-child(2) div:nth-of-type(4) {
+  background-image: url(/public/Rectangle4.png);
+}
+
+#categories > div:nth-child(2) div:nth-of-type(5) {
+  background-image: url(/public/Rectangle5.png);
+}
+
+#categories > div:nth-child(2) div:nth-of-type(6) {
+  background-image: url(/public/Rectangle6.png);
 }
 
 #kit {
@@ -374,7 +405,6 @@ span {
   background-image: url(/public/Group880.png);
   background-size: 100%;
   background-repeat: no-repeat;
-  background-color: #e7fafe;
 }
 
 #sec-exl {
@@ -383,6 +413,10 @@ span {
   justify-content: center;
   align-items: center;
   gap: 40px; 
+  padding-bottom: 70px;
+  background-image: url(/public/ibg.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
 }
 
 #sec-exl > div:first-child {
@@ -428,11 +462,6 @@ span {
 .icon-desc {
   display: flex;
   flex-direction: column;
-}
-
-.oval {
-  width: 40px;
-  height: 40px;
 }
 
 #sec-exl button {

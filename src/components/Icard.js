@@ -1,21 +1,22 @@
 import React from 'react'
 
-const formatDate = (date) => {
+  const formatDate = (date) => {
     const options = { month: 'long', day: 'numeric' };
-    return date.toLocaleDateString('en-GB', options);
+    return new Intl.DateTimeFormat('en-US', options).format(date);
   };
-
+  
 function Icard({src, description}) {
-    const today = new Date();
 
+  const today = new Date();
+  const formattedDate = formatDate(today);
   return (
-    <div className='bg-neutral-50 py-4' id="exl">
+    <div className='bg-white py-4' id="exl">
         <div className='justify-items-center items-center'>
             <div className='flex justify-items-center items-center'>
-                <img className="oval" src="Oval.svg" alt="recipe" />
-                <div className='icon-desc m-2'>
+                <img className="oval w-8 h-8" src="Oval.svg" alt="recipe" />
+                <div className='icon-desc m-2 text-xs'>
                     <div className='flex'>
-                        <h4>Foodieland.</h4>
+                        <h4 className='font-bold'>Foodieland.</h4>
                         <img src="Shape.svg" alt="shape" />
                     </div>
                     <small>Tokyo, Japan</small>
@@ -47,14 +48,14 @@ function Icard({src, description}) {
             <img className='size-5' src="Pagination.svg" />
             <img src="Save.svg" />
         </div>
-        <div className='px-3'>
+        <div className='px-3 text-xs'>
             <div className='flex justify-items-center items-center'>
                 <img className='pr-3 w-10 h-10' src="Oval2.svg" alt="user" />
-                <p>Liked by craig_love and 44,686</p>
+                <p>Liked by <span className='text-black font-bold'>craig_love</span> and <span className='text-black font-bold'>44,686</span></p>
             </div>
-            <p>{description}</p>
+            <p><span className='text-black font-bold'>Foodieland.</span> {description}</p>
         </div>
-        <p className='px-3'>{formatDate(today)}</p>
+        <p className='px-3 text-xs text-gray-500'>{formattedDate}</p>
     </div>
   )
 }

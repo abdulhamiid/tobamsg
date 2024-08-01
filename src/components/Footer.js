@@ -18,7 +18,7 @@ function Footer() {
             <div className='flex w-[100%] justify-between items-center'>
                 <header className='flex flex-col gap-4 my-8'>
                     <h1 id="header"><Link to="/">Foodieland</Link></h1>
-                    <small className='text-neutral-400 font-light'>Lorem ipsum dolor sit amet, consectetuipisicing elit, </small>
+                    <small className='text-gray-500'>Lorem ipsum dolor sit amet, consectetuipisicing elit, </small>
                 </header>
                 <ul className="nav-links">
                     <li>

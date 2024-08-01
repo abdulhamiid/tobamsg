@@ -9,10 +9,10 @@ function Instagram() {
             <p>Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim ad minim </p>
         </div>
         <div>
-            <Icard src="Rectangle1.svg" description="Foodieland. The vegetables dishes need to have certain vitamin for those people" />
-            <Icard src="Rectangle1.svg" description="Foodieland. The vegetables dishes need to have certain vitamin for those people" />
-            <Icard src="Rectangle1.svg" description="Foodieland. The vegetables dishes need to have certain vitamin for those people" />
-            <Icard src="Rectangle1.svg" description="Foodieland. The vegetables dishes need to have certain vitamin for those people" />
+            <Icard src="is1.svg" description="The vegetables dishes need to have certain vitamin for those people" />
+            <Icard src="Rectangle1.svg" description="The vegetables dishes need to have certain vitamin for those people" />
+            <Icard src="is3.svg" description="The vegetables dishes need to have certain vitamin for those people" />
+            <Icard src="is4.svg" description="The vegetables dishes need to have certain vitamin for those people" />
         </div>
         <button type="button" className='flex justify-around items-center gap-2.5' >
           <span>Visit Our Instagram</span>

@@ -7,7 +7,7 @@ function Cat() {
         <div>
             <h2>Categories</h2>
             <div id="btn-c">
-                <p>View All Categories</p>
+                <p className='font-bold'>View All Categories</p>
             </div>
         </div>
         <div>
