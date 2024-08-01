@@ -55,7 +55,7 @@ This project is a fully functional web page based on provided [Figma design](htt
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link]()
+- [Live Demo Link](https://tobamsg.vercel.app/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
