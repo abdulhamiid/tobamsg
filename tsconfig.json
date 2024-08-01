@@ -1,0 +1,42 @@
+
+{
+
+  "compilerOptions": {
+
+    "target": "es5",
+
+    "module": "commonjs",
+
+    "lib": ["dom", "dom.iterable", "esnext"],
+
+    "allowJs": true,
+
+    "jsx": "react-jsx", // Specify the JSX flag as "react-jsx"
+
+    "outDir": "./dist",
+
+    "baseUrl": "./src",
+
+    "paths": {
+
+      "*": ["src/*"]
+
+    },
+
+    "esModuleInterop": true,
+
+    "experimentalDecorators": true,
+
+    "emitDecoratorMetadata": true,
+
+    "strict": true,
+
+    "skipLibCheck": true,
+
+    "forceConsistentCasingInFileNames": true
+
+  },
+
+  "include": ["src"]
+
+}
